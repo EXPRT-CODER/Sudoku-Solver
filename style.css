@@ -99,4 +99,8 @@ input {
         justify-items: center;
         align-items: center;
   }
+      .main-containner{
+            margin-top: 0px;
+      }
+      
 }
