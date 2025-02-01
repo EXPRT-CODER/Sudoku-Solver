@@ -1,22 +1,21 @@
 body{
-      position: fixed;
       overflow: hidden;
       width: 100%;
       height:100vh;
       background-color: black;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-      row-gap: 50px;
+      gap: 3rem;
       
 }
 .header{
-      z-index: 1;
-      position: fixed ;
-      top:0;
-      left:0;
       width: 100%;
       height: 70px;
+      position: fixed;
+      top: 0;
+      left: 0;
       color: #FFC915;
       background-color: #1E2328;
       display: flex;
@@ -25,7 +24,6 @@ body{
 }
 #header-div{
       margin-left: 20px;
-      aspect-ratio: 1;
       height:20px ;
       border-radius: 5px;
       border: 2px solid #FFC915;
@@ -43,13 +41,10 @@ body{
 .main-container {
       background-color: #FFC915;
       border-radius: 10px;
-      aspect-ratio:1;
-      margin-top: 30%;
       padding: 10px;
       display: grid;
       grid-template-columns: repeat(3,1fr);
       grid-template-rows: repeat(3,1fr);
-      place-items: ;
 }
 
 .sub-container{
@@ -85,7 +80,6 @@ input {
       background-color: black;
       font-weight: bold;
       width: 25%;
-      aspect-ratio: ;
       padding: 10px;
       width: 90px;
       border-radius: 10px;
@@ -94,9 +88,6 @@ input {
       flex-shrink: 0;
 }
 @media only screen and (min-width: 768px) {
-  body{
-        display: ;
-  }
       .main-containner{
             position: absolute;
             top: 0%;
