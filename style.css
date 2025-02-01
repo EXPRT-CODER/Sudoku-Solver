@@ -87,11 +87,4 @@ input {
       box-shadow: 0 0 10px #FFC915;
       flex-shrink: 0;
 }
-@media only screen and (min-width: 768px) {
-      .main-containner{
-            position: absolute;
-            top: 0%;
-            left:35%;
-      }
-      
 }
